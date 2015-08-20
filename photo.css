@@ -35,7 +35,7 @@
 	position: absolute;
 	height: 23px;
 	width:23px;
-	background: url(../images/about-icon.png) no-repeat;
+	background: url(images/about-icon.png) no-repeat;
 	  margin-left: -35px;
   margin-top: 3px
 }
@@ -72,7 +72,7 @@
 	width:23px;
 	margin-top: 7px;
     margin-left: -14px;
-    background: url(../images/arrow.png) no-repeat;
+    background: url(images/arrow.png) no-repeat;
 
 
 }
@@ -103,7 +103,7 @@
 }
 .text{
 	font-size: 14px;
-  font-family: OpenSans;
+  font-family: "OpenSans";
   color: rgb(34, 88, 116);
   line-height: 1.571;
   
@@ -295,6 +295,8 @@
 	  line-height: 3;
     padding-left: 38px;
     box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
 
 }
 .direction:before{
@@ -304,7 +306,7 @@
 	width:23px;
 	margin-top: 16px;
     
-    background: url(../images/arrow1.png) no-repeat;
+    background: url(images/arrow1.png) no-repeat;
     margin-left: -26px;
 }
 .hr ul{
@@ -346,7 +348,7 @@
         -webkit-transition-property: border;
         -webkit-transition-duration: 0.4s;
         -webkit-transition-timing-function: ease-out;
-        tran
+        
 }
 .hr{
 	list-style: none;
