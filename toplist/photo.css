@@ -1,0 +1,376 @@
+.container{
+	
+  padding-left: 5px;
+  padding-right: 5px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  
+}
+.row{
+	margin-left: -15px;
+  margin-right: -15px;
+  background-color: #282f37;
+   overflow: visible;
+   height: 74px;
+
+}
+.about-icon{
+	display:block;
+	line-height: 30px;
+	min-width: 90px;
+	padding-left: 50px;
+	padding-right: 15px;
+	background-color: #2697dd;
+	border: none;
+	border-radius: 3px;
+	color: #fff;
+	text-transform: uppercase;
+	position:relative;
+	float: right;
+    
+    margin-top: 12px;
+
+}
+.about-icon:before{
+	content:"";
+	position: absolute;
+	height: 23px;
+	width:23px;
+	background: url(../images/about-icon.png) no-repeat;
+	  margin-left: -35px;
+  margin-top: 3px
+}
+.hr{
+	float: left;
+	margin-left: 80px;
+	z-index: 1;
+
+}
+.img{
+	float:left;
+	
+	margin-top: 10px;
+}
+.popular{
+	display:block;
+	line-height: 30px;
+	min-width: 90px;
+	padding-left: 22px;
+    padding-right: 5px;
+	background-color: #2697dd;
+	border: none;
+	border-radius: 3px;
+	color: #fff;
+	text-transform: uppercase;
+	position:relative;
+	margin: 13px;
+
+}
+.popular:before{
+	content:"";
+	position: absolute;
+	height: 23px;
+	width:23px;
+	margin-top: 7px;
+    margin-left: -14px;
+    background: url(../images/arrow.png) no-repeat;
+
+
+}
+
+
+}
+.row:after{
+	content:'';
+	display:block;
+	clear:both;
+}
+.topic{
+	float: left;
+	font-size: 20px;
+  font-family: "OpenSans";
+  color: rgb(34, 88, 116);
+  line-height: 1.1;
+  
+  left: 248.86px;
+  top: 179.198px;
+  margin-left: 15px;
+  margin-right: 157px;
+}
+.row1{
+    overflow: hidden;
+    background-color: #eaeff2;
+      border: 1px solid white;
+}
+.text{
+	font-size: 14px;
+  font-family: OpenSans;
+  color: rgb(34, 88, 116);
+  line-height: 1.571;
+  
+  left: 248.937px;
+  top: 1454.25px;
+  width: 754px;
+  height: 223px;
+  
+}
+.row2{
+	background-color: #ffffff;
+	padding: 12px;
+
+}
+.date{
+	font-size: 12px;
+  font-family: "OpenSans";
+  color: rgb(162, 183, 196);
+  font-weight: bold;
+  line-height: 1.833;
+  
+  left: 265.521px;
+  top: 1693.502px;
+  display: inline-block;
+}
+.center{
+	  padding-top: 50px;
+  
+  background-color: #e5e7e9;
+  margin-left: -15px;
+  margin-right: -15px;
+  padding-bottom: 50px;
+}
+.background1{
+	background-color: #d5dfe6;
+	width: 50px;
+	height: 25px;
+
+}
+
+.FS {
+  font-size: 61.052px;
+  font-family: "OpenSans";
+  
+  
+  text-transform: uppercase;
+  
+  text-align: left;
+  text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+  -moz-transform: matrix( 0.72069728582738,0,0,0.72069727508816,0,0);
+  -webkit-transform: matrix( 0.72069728582738,0,0,0.72069727508816,0,0);
+  -ms-transform: matrix( 0.72069728582738,0,0,0.72069727508816,0,0);
+  border-right: 2px solid #ccc; 
+  padding-right: 7px;
+  float: left;
+  margin-left: -10px;
+  
+  
+}
+.FS a{
+	color:#94979b
+}
+.table1{
+	width: 740px;
+	margin-bottom: 20px;
+}
+.search{
+	float: right;
+
+}
+#search{
+	width: 300px;
+	height: 62px;
+	border-left: 2px solid #ccc;
+    background-color: #d5dfe6;
+    border: 1px solid white;
+    position: relative;
+    text-indent: 10px;
+    font-size: larger;
+    
+}
+
+.search1 .lupa{
+  position: absolute;
+  
+  margin-left: 20%;
+  margin-top: 20px;
+  z-index: 1;
+  color: #4f5b66;
+
+}
+.categories1{
+
+	width: 300px;
+	
+	background-color: #d5dfe6;
+	border: 1px solid white;
+
+
+}
+.color{
+	height: 45px;
+	width: 300px;
+	color: #e5e7e9;
+
+}
+.lupa{
+	margin-left: 180px;
+  margin-top: 16px;
+}
+.cat{
+	margin-top: 19px;
+  margin-left: 261px;
+  padding-bottom: 10px;
+}
+.word{
+	  margin-left: 20px;
+	  position: absolute;
+      margin-top: 18px;
+      text-transform: uppercase;
+      color: #225874;
+
+}
+.word1{
+	  border-left: 2px solid #ccc;
+  padding-left: 8px;
+  padding-bottom: 3px;
+  margin-left: 20px;
+}
+.bottom{
+	background-color: #282f37;
+	margin-left: -15px;
+  margin-right: -15px;
+  height: 90px;
+}
+.table2{
+	width: 740px;
+}
+.hr1{
+	float: right;
+	color: #61666c;
+    margin-top: 24px;
+    text-transform: uppercase;
+  
+}
+.hr1 li{
+	display: inline-block;
+	padding-right: 56px;
+
+}
+.hr1 li a:hover{
+	color: #2a6496;
+	
+
+}
+.Frontend{
+	  overflow: hidden;
+	  text-transform: uppercase;
+
+      font-size: 14px;
+      font-family: "OpenSans";
+      color: #8d9095;
+      line-height: 1.429;
+      text-align: left;
+      margin-top: 0;
+      padding-top: 14px;
+      margin-bottom: 0;
+      left: 299.937px;
+      top: 1907.247px;
+  
+}
+.color1{
+	background-color:#313841;
+	height: 18px;
+	margin-left: -15px;
+  margin-right: -15px; 
+}
+.list{
+	list-style: none;
+	padding: 0px;
+  margin: 0px;
+
+}
+.direction{
+	width: 300px;
+	height: 45px;
+	background-color: #f2f5f7;
+	  border-top: 2px solid white;
+	  line-height: 3;
+    padding-left: 38px;
+    box-sizing: border-box;
+
+}
+.direction:before{
+	content:"";
+	position: absolute;
+	height: 23px;
+	width:23px;
+	margin-top: 16px;
+    
+    background: url(../images/arrow1.png) no-repeat;
+    margin-left: -26px;
+}
+.hr ul{
+	display: none;
+	background: #242a31; 
+	border-radius: 0px; 
+	padding: 0;
+	position: absolute; 
+}
+.hr li:hover> ul{
+	display: block;
+}
+.hr:after {
+		content: "";
+		clear: both; 
+		display: block;
+}
+.hr li {
+	float: left;
+	display: block; 
+	color: #fff; 
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+.hr li:hover {
+		background: #2697dd;
+		background: linear-gradient(top, #4f5964 0%, #5f6975 40%);
+		background: -moz-linear-gradient(top, #4f5964 0%, #5f6975 40%);
+		background: -webkit-linear-gradient(top, #4f5964 0%,#2697dd 40%);
+}
+.hr ul li {
+		float: none; 
+		padding-left: 12px;
+		position: relative;
+		height: 30px;
+        margin-top: 10px;
+        transition-
+        -webkit-transition-property: border;
+        -webkit-transition-duration: 0.4s;
+        -webkit-transition-timing-function: ease-out;
+        tran
+}
+.hr{
+	list-style: none;
+	position: relative;
+	display: inline-table;
+}
+.wrapper{
+	margin: auto;
+	width: 1200px;
+}
+a{
+	text-decoration: none;
+    color: white;
+    background: transparent;
+}
+.list .direction a{
+	color: #225874;
+}
+.hr1 li a{
+	color: #94979b;
+}
+
+
+
+
+
+
