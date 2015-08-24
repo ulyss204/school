@@ -189,11 +189,14 @@
 .search1 .lupa{
   position: absolute;
   
-  margin-left: 20%;
+  margin-left: 87%;
   margin-top: 20px;
   z-index: 1;
   color: #4f5b66;
 
+}
+.search1{
+	position: relative;
 }
 .categories1{
 
